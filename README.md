@@ -1,10 +1,8 @@
-Banco de Dados do Hospital
-Introdução
+#Banco de Dados do Hospital
+#Introdução
 Este repositório contém scripts SQL para criar um esquema de banco de dados relacional para um sistema de gestão hospitalar. O esquema inclui tabelas para gerenciar pacientes, médicos, consultas, prescrições, quartos de hospital e muito mais.
 
-Estrutura do Banco de Dados
-Tabelas
-Consulta
+#Estrutura do Banco de Dados
 
 Atributos: idConsulta, dataconsulta, valor, idmedico, idpaciente, idespecialidade, idreceita
 Chaves Estrangeiras: idmedico (referencia medico), idpaciente (referencia paciente), idespecialidade (referencia especialidade), idreceita (referencia receita)
